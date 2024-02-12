@@ -18,11 +18,11 @@ const routes: Routes = [
     path: 'home',
     component: ParentComponent,
   },
-  // {
-  //   path: '',
-  //   redirectTo: '/spoken',
-  //   pathMatch: 'full',
-  // },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
+  },
   {
     path: '**',
     component: NotFoundComponent,

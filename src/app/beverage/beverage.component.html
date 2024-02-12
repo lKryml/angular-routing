@@ -6,4 +6,6 @@
   <label for="beverage">Enter a beverage: </label>
   <input id="beverage" type="text" #bev />
   <button (click)="addBevarage(bev.value); bev.value = ''">Add</button>
+
+  <H1 *ngIf="currentBeverage === 'easter egg'">hello there xd</H1>
 </div>
