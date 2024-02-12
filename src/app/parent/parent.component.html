@@ -6,6 +6,9 @@
       <li *ngFor="let bev of beverageList">{{ bev }}</li>
     </ul>
   </div>
+  <label for="todays-bev">Enter Todays Beverage: </label>
+  <input type="text" id="todays-bev" #todaysbev />
+  <button (click)="sendBev(todaysbev.value); todaysbev.value = ''">Add</button>
 </div>
 <app-beverage
   [currentBeverage]="beverage"

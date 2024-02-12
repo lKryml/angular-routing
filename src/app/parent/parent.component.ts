@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./parent.component.scss'],
 })
 export class ParentComponent {
-  beverage: string = 'Eggnog';
+  beverage: string = '';
   beverageList = ['Milk', 'Tea', 'Sahleb', 'Cocoa'];
 
   addBev(newBev: string) {
     this.beverageList.push(newBev);
+  }
+
+  sendBev(value: string) {
+    this.beverage = value;
   }
 }
