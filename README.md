@@ -1,5 +1,5 @@
 # Practice
-
+![ang](https://github.com/lKryml/angular-routing/assets/103531991/c3fef588-4284-40cf-9a29-4b8abdee1afb)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
 
 ## Development server
